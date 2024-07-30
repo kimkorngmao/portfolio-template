@@ -1,0 +1,20 @@
+{
+    "name": "Mao Kimkorng",
+    "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsam, ea sed vero fugit omnis aperiam porro.",
+    "contacts": [
+        {
+            "name": "Behance",
+            "link": ""
+        },
+        {
+            "name": "Facebook",
+            "link": ""
+        },
+        {
+            "name": "Instagram",
+            "link": ""
+        }
+    ],
+    "email": "",
+    "cv": ""
+}
