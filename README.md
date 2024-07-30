@@ -1,4 +1,4 @@
-# Website Template
+# Personal Website Template for Designer
 
 This template was created by [Kimkorng Mao](https://github.com/kimkorngmao).
 
