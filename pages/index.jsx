@@ -7,6 +7,7 @@ import MasonryLayout from '@/components/GridLayout';
 
 export default function Home() {
   const [works, setWorks] = useState([]);
+  const currentYear = new Date().getFullYear();
 
   useEffect(() => {
     fetch('/api/works')
@@ -15,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen px-5 py-12 md:p-14 duration-200">
+    <main className="min-h-screen px-5 pt-12 md:p-14 duration-200">
       <Head>
         <title>{info.name}</title>
         <link rel="icon" type="image/x-icon" href="/profile.jpg"></link>
@@ -65,6 +66,10 @@ export default function Home() {
           </div>
         ))}
       </MasonryLayout>
+
+      <footer className='text-sm mt-8 py-4'>
+        <p>{info.name} © {currentYear}</p>
+      </footer>
     </main>
   );
 }
